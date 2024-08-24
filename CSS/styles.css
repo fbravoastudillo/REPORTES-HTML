@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0d0d0; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación superior */
+nav {
+    background-color: #bdbdbd; /* Color de fondo del navbar */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav button {
+    background-color: #f2f2f2;
+    border: 1px solid #aaa;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size:44px;
+}
+
+nav button:hover {
+    background-color: #e0e0e0;
+}
+
+nav button.active {
+    background-color: #ffd700; /* Color del botón activo */
+}
+
+nav img {
+    width: 150px;
+    height: auto;
+    
+}
+
+/* Contenedor principal */
+.contenedor {
+    background-color: #e8e8e8;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #dcdcdc;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+/* Botón de exportación */
+button.enviar {
+    background-color: greenyellow;
+    border: 1px solid #aaa;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    float: right;
+}
+
+button.enviar-btn:hover {
+    background-color: #e0e0e0;
+}
+footer {
+    background-color: #bdbdbd; /* Mismo color que el navbar */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    color: #333; /* Color del texto */
+    font-size: 14px;
+}
